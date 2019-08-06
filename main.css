@@ -10,6 +10,11 @@ h2 {
     font-size: 20px;
 }
 
+.redText{
+    color:red;
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
@@ -37,5 +42,14 @@ h2 {
   .topnav a.active {
     background-color: #FF4850;
     color: white;
+    border-radius: 5px;
   }
   
+  .flex-container {
+    padding: 0;
+    margin: 0;
+    float: center;
+    width: 120px;
+    height: 300px;
+    padding: 10px
+    margin-top: 5px;
