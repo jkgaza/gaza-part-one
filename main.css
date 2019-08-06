@@ -1,3 +1,7 @@
+body{
+  background-image: url("https://farmaveterinaria.es/wp-content/uploads/4-ordenes-e1554908691642.jpg");
+}
+
 h1 {
     font-family: Fira Sans;
     font-weight: 600;
@@ -23,7 +27,7 @@ h3 {
     background-color: #FF4850;
     border: none;
     color: white;
-    padding: 10px 10px;
+    padding: 10px;
     text-align: center;
     font-family: Fira Sans;
     border-radius: 5px;
@@ -31,9 +35,14 @@ h3 {
     font-size: 16px;
   }
 
+#nav {
+  list-style-type: none;
+} 
+
 /* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
+    border: 0px;
   }
   
   /* Style the links inside the navigation bar */
@@ -70,3 +79,6 @@ h3 {
     height: 50px;
     padding: 10px
     margin-top: 5px;
+  }
+
+    
