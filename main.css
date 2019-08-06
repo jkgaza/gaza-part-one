@@ -2,6 +2,11 @@ body{
   background-image: url("https://farmaveterinaria.es/wp-content/uploads/4-ordenes-e1554908691642.jpg");
 }
 
+@media screen and (min-width:375px;) and (max-width:667px;){
+  body {background-color: #F0ECEE;
+  }
+}
+
 h1 {
     font-family: Fira Sans;
     font-weight: 600;
@@ -84,13 +89,11 @@ h3 {
   }
 
   /*MEDIA QUERY*/
-  @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  @media (max-width: 600px;
+          orientation:portrait;){
     background-color: #F0ECEE;
 
-}
+
+  }
 
     
