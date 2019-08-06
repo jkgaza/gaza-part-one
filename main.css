@@ -10,3 +10,32 @@ h2 {
     font-size: 20px;
 }
 
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #88898b;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Fira Sans;
+    font-weight: 400;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #FF4850;
+    color: white;
+  }
+  
