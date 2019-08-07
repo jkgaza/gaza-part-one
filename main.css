@@ -100,4 +100,10 @@ h3 {
     }
   }
 
+  @media (max-width: 600px;){
+    .button:{
+      
+    }
+  }
+
     
