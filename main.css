@@ -42,6 +42,8 @@ h2 {
 .topnav {
     overflow: hidden;
     border: 0px;
+    display:flex;
+    align-items:center;
   }
   
   /* Style the links inside the navigation bar */
